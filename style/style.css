@@ -8,29 +8,108 @@ body{
     padding: 0;
 }
 
-.header-list{
-    font-size: 1.5rem;
-    margin-left: 120px;
+.header{
+    font-size: 1rem;
+    padding-top: 30px;
     display: grid;
-    grid-template-columns: 300px 1140px;
+    grid-template-columns: 300px 1000px;
+}
+
+#logo{
+    padding-left: 80px;
 }
 
 ul{
     list-style: none;
     display: flex;
     padding-left: 0px;
+    padding-right: 0px;
 }
 
-li{
-    padding: 30px;
-    padding-bottom: 0px;
+.header-list{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 90px;
+    font-size: 1.2rem;
 }
 
+.banner{
+    padding: 0px;
+}
 
+.feed-area{
+    display: grid;
+}
 
+.feed-area-copy{
+    font-size: 1.65rem;
+    text-align: center;
+    padding: 200px;
+}
 
+.feed-area-list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
 
+.TwoColumn-view{
+    display: flex;
+    flex-direction: row;
+    margin-left: 145px;
+    margin-right: 145px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    outline: 1px solid rgb(210, 210, 210);
+    outline-offset: -30px;
+}
 
+.TwoColumn-details{
+    padding-left: 80px;
+    padding-right: 80px;
+}
 
+#TwoColumn-text{
+    font-size: 1.4rem;
+}
 
+h2{
+    font-size: 1.65rem;
+}
+
+.sample{
+    font-size: 1.65rem;
+    text-align: center;
+    padding: 100px;
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+
+.WrapperArt-list-sample{
+    background-color: rgb(210, 210, 210);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    padding: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.WrapperArt-list-image
+
+.call{
+    background-color: rgb(62, 69, 134);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    padding: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.footer{
+    font-size: 0.8rem;
+}
 
