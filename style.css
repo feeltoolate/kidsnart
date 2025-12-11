@@ -113,8 +113,8 @@ h2{
     font-size: 0.8rem;
 }
 
-@media(max-width:800px){
-    .banner{
-        display:none;
+@media screen and (max-width: 800px) {
+    .banner {
+        display: none;
     }
 }
